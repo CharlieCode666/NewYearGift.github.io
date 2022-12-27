@@ -11,7 +11,7 @@ var i = 1
 
 function href(){
 
-    for(i; i<=10; i++){
+    for(i; i<=100; i++){
 
         // window.open("https://www.peanutimes.com/upload/article/original/1b8d8b02d3cffa8d8839399e7deef2e0.jpg");
 
