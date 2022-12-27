@@ -1,0 +1,138 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #3e3960;
+}
+
+.box1{
+    background: #ff0066;
+    width: 100%;
+    height: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h01{
+    color: #00ff00;
+    font-size: 80px;
+
+    text-shadow: 5px 5px #ccff33, 8px 8px #ffffff;
+}
+
+h3{
+    color: aqua;
+    font-size: 60px;
+}
+
+h2{
+    color: aliceblue;
+    font-size: 60px;
+}
+
+#snow1{
+    width: 100px;
+    height: 100px;
+
+    left: 10%;
+    position: absolute;
+    border-radius:100px;
+    background:#ffffff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#snow2{
+    width: 100px;
+    height: 100px;
+
+    left: 30%;
+    position: absolute;
+    border-radius:100px;
+    background:#ffffff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#snow3{
+    width: 100px;
+    height: 100px;
+
+    left: 60%;
+    position: absolute;
+    border-radius:100px;
+    background:#ffffff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#snow4{
+    width: 100px;
+    height: 100px;
+
+    left: 80%;
+    position: absolute;
+    border-radius:100px;
+    background:#ffffff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box2{
+    background: #3e3960;
+    width: 100%;
+    height: 150px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box3{
+    background: red;
+    width: 100%;
+    height: 650px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box4{
+    background: #3e3960;
+    width: 100%;
+    height: 150px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box5{
+    background: #ffcc00;
+    width: 100%;
+    height: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ton{
+    background: #9999ff;
+}
