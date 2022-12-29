@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>報復網頁</title>
+</head>
+<body>
+
+    <style>
+
+        body{
+            background: #5e568f;
+        }
+
+        .box1{
+            width: 100%;
+            height: 500px;
+
+            background: red;
+        }
+
+        img{
+            width: 100%;
+            height: 100%;
+        }
+
+        .box2{
+            width: 100%;
+            height: 70px;
+
+        }
+
+        .box3{
+            width: 100%;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #text{
+            font-size: 50px;
+            color: aliceblue;
+        }
+    </style>
+
+    <div class="box1">
+        <img src="TrapCard.jpg">
+    </div>
+
+    <div class="box2"></div>
+
+    <div class="box3">
+        <h1 id="text">哈哈哈! 你中招了! 接受正義的制裁吧!</h1>
+    </div>
+
+    <script>
+
+        var text = document.getElementById('text')
+
+        src = [
+        "https://www.peanutimes.com/upload/article/original/1b8d8b02d3cffa8d8839399e7deef2e0.jpg",
+        "https://www.peanutimes.com/upload/article/original/a3522074b8a710bdab314dc6c5bf70dc.jpg",
+        "https://www.peanutimes.com/upload/article/original/a48760c344b72e88f7eaded87a914acf.jpg",
+        "https://www.peanutimes.com/upload/article/original/6c2a2ad7a3aa392e712dbabc8bdb9ad7.jpg",
+        "https://www.peanutimes.com/upload/article/original/df2f58cbf8a7913a9bc5bfecfdb133fe.jpg",
+        "https://www.peanutimes.com/upload/article/original/325464a9dabff6772a70ec03de2f510c.jpg"
+        ];
+
+        setTimeout(function(){
+
+
+            for(var i=1; i<=10; i++){
+
+            num = Math.floor(Math.random() * 6);
+
+            window.open(src[num]);
+
+            }
+
+        },2000);
+
+    </script>
+    
+</body>
+</html>
